@@ -1,7 +1,7 @@
 import 'package:mvvm/contracts/oberservable_state.dart';
 import 'package:mvvm/controllers/change_state.dart';
 
-class StateObservable<T> extends ChangeState implements OberservableState {
+class StateObservable<T> extends ChangeState implements ObservableState {
   T _state;
 
   @override

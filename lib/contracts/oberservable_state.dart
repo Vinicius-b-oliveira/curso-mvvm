@@ -1,4 +1,4 @@
-abstract class OberservableState<T> {
+abstract class ObservableState<T> {
   final T state;
-  OberservableState(this.state);
+  ObservableState(this.state);
 }
